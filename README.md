@@ -1,6 +1,6 @@
 # What is this App
 
-This is a Flash Card app with a social component that allows for real-time comment streaming. The video [can be seen here](./demo). 
+This is a Flash Card app with a social component that allows for real-time comment streaming. The video [can be seen here](Flashy Deck Kafka Demo.mp4). 
 This project relies on the [backend server, found here](https://github.com/Step-henC/flashycards-backend) to create a user ID on login.
 From there, users can create flashcards. To take advantage of the kafka-driven comment feature, you can use the [comment server here](https://github.com/Step-henC/flashycards-backend)
 or follow instructions on the backend server, to set up kafka locally and curl to create topics. 
