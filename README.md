@@ -21,7 +21,9 @@ You may also see any lint errors in the console.
 
 # Flashy Cards Features
 
-Flashy cards is a standard React UI with use of browser storage DB known as **[DexieJS](https://dexie.org/)**. Dexie JS is a light-weight IndexedDB wrapper
+Flashy cards is a standard React UI with use of browser storage DB known as **[DexieJS](https://dexie.org/)**. 
+
+Dexie JS is a light-weight IndexedDB wrapper
 ideal for complex object storage. Faster than JSON parsing from localStorage. To avoid prop-drilling, new flash card decks are stored in Dexie JS DB with the 
 Dexie-generated ID placed in the URL for retrieval in the flashcard page. The deck is then extracted from DB to be worked by user. 
 Comment objects are also stored in DexieJS DB. Dexie offers a number of SQL-like features ideal for sorting and filtering data too. 
